@@ -2,9 +2,9 @@
 # this is only an example
 # use das2j instead
 
-./build.bash
+./build.bash ..
 
-das2j helloworld >out.json
+./das2j.bash .. helloworld.drawio >out.json
 
 python3 test.py
 
